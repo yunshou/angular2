@@ -10,9 +10,16 @@ export class HeaderComponent implements OnInit {
 
   title = 'The YunShou';
 
+  num = 1;
+
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  PlusOne(){
+    this.num = this.num + 1;
   }
 
 }
